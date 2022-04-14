@@ -1,0 +1,27 @@
+{
+  "name": "limit-fn-calls",
+  "version": "1.0.0",
+  "description": "Limit how many times function can be called",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosiae/limit-fn-calls.git"
+  },
+  "keywords": [
+    "fn",
+    "limit",
+    "calls",
+    "limiter",
+    "optimization"
+  ],
+  "author": "Denis Kotlica <neosiae@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosiae/limit-fn-calls/issues"
+  },
+  "homepage": "https://github.com/neosiae/limit-fn-calls#readme"
+}
