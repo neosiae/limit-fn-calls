@@ -8,4 +8,4 @@ const limitFnCalls = (fn: Function, limit: number): Function => {
 
     fn(...args);
   }
-}
+};
