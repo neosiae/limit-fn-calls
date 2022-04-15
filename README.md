@@ -1,5 +1,12 @@
 # limit-fn-calls
+
 Limit how many times function can be called
+
+# Install
+
+```
+$ npm install limit-fn-calls
+```
 
 ## Usage
 
