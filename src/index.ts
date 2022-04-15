@@ -9,3 +9,5 @@ const limitFnCalls = (fn: Function, limit: number): Function => {
     return fn(...args);
   }
 };
+
+export default limitFnCalls;
