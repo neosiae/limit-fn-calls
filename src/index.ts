@@ -1,4 +1,6 @@
-const limitFnCalls = (fn: Function, limit: number): Function => {
+type callback = (...args: unknown[]) => unknown;
+
+const limitFnCalls = (fn: callback, limit: number): callback => {
   let calls = 0;
 
   return (...args: unknown[]): unknown => {
@@ -7,7 +9,7 @@ const limitFnCalls = (fn: Function, limit: number): Function => {
     calls++;
 
     return fn(...args);
-  }
+  };
 };
 
 export default limitFnCalls;
