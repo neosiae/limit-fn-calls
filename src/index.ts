@@ -1,6 +1,6 @@
-type callback = (...args: unknown[]) => unknown;
+type limitFn = (...args: unknown[]) => unknown;
 
-const limitFnCalls = (fn: callback, limit: number): callback => {
+const limitFnCalls = (fn: limitFn, limit: number): limitFn => {
   let calls = 0;
 
   return (...args: unknown[]): unknown => {
